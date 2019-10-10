@@ -17,6 +17,8 @@ php artisan key:generate
 
 sudo chmod -R 0777 storage bootstrap/cache
 
+php artisan migrate - запуск миграций
+
 ./vendor/bin/phpunit - запуск тестов
 
 Запрос на изменение баланса: 
