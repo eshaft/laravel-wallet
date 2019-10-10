@@ -17,6 +17,10 @@ php artisan key:generate
 
 sudo chmod -R 0777 storage bootstrap/cache
 
+./vendor/bin/phpunit - запуск тестов
+
+Запрос на изменение баланса: 
+
 curl -X POST \
   http://lwallet.local/api/wallet \
   -H 'Accept: application/json' \
